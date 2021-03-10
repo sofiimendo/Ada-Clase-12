@@ -1,0 +1,45 @@
+.titulo {
+    /*
+    1em   : 16px 
+    1.5em : 16px * 1.5 = 24px
+    0.5em : 16px * 0.5 = 8px
+
+    1em   : 24px 
+    1.5em : 24px * 1.5 = 36px
+    0.5em : 24px * 0.5 = 12px
+
+    1rem   : 24px 
+    1.5rem : 24px * 1.5 = 36px
+    0.5rem : 24px * 0.5 = 12px
+
+
+  */
+    font-size: 1.5em;
+    /* => 16px */
+}
+
+.barra {
+    background-color: aqua;
+    height: 100px;
+}
+
+@media screen and (max-width: 780px) {
+    .barra {
+        background-color: darkgreen;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .barra {
+        background-color: coral;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .barra {
+        background-color: blue;
+        height: 100px;
+    }
+}
